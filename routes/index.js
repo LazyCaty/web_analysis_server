@@ -15,6 +15,7 @@ router.post('/', async (ctx) => {
 }catch (e) {
     console.log('加载数据失败')
 }
-})
+});
+
 
 module.exports = router
